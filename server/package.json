@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "description": "",
+  "engines": {
+    "node": ">=14.20.1"
+  },
   "main": "index.js",
   "scripts": {
     "start": "nodemon index"
