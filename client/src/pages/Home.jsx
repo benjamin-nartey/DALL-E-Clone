@@ -58,7 +58,7 @@ function Home() {
         const searchResults = allPost.filter(
           (item) =>
             item.name.toLowerCase().includes(searchText.toLowerCase()) ||
-            prompt.toLowerCase().includes(searchText.toLowerCase())
+            item.prompt.toLowerCase().includes(searchText.toLowerCase())
         );
         setSearchResults(searchResults);
       }, 500)
